@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "d": {
+        "item": "minecraft:diamond_block"
+      },
+      "e": {
+        "item": "minecraft:emerald_block"
+      },
+      "g": {
+        "item": "minecraft:gold_block"
+      },
+      "i": {
+        "item": "minecraft:iron_block"
+      },
+      "t": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "pattern": [
+      "igd",
+      "ete",
+      "dgi"
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:carrot_on_a_stick",
+      "components": {
+        "custom_name": "[{'text':'Revive'}]"
+      }
+    }
+  }

@@ -1,0 +1,21 @@
+execute run attribute @s generic.max_health modifier remove gainheart
+execute if score @s hearts matches 10..19 run attribute @s generic.max_health modifier add gainheart 1 add_value
+execute if score @s hearts matches 20..29 run attribute @s generic.max_health modifier add gainheart 2 add_value
+execute if score @s hearts matches 30..39 run attribute @s generic.max_health modifier add gainheart 3 add_value
+execute if score @s hearts matches 40..49 run attribute @s generic.max_health modifier add gainheart 4 add_value
+execute if score @s hearts matches 50..59 run attribute @s generic.max_health modifier add gainheart 5 add_value
+execute if score @s hearts matches 60..69 run attribute @s generic.max_health modifier add gainheart 6 add_value
+execute if score @s hearts matches 70..79 run attribute @s generic.max_health modifier add gainheart 7 add_value
+execute if score @s hearts matches 80..89 run attribute @s generic.max_health modifier add gainheart 8 add_value
+execute if score @s hearts matches 90..99 run attribute @s generic.max_health modifier add gainheart 9 add_value
+execute if score @s hearts matches 100..109 run attribute @s generic.max_health modifier add gainheart 10 add_value
+execute if score @s hearts matches 110..119 run attribute @s generic.max_health modifier add gainheart 11 add_value
+execute if score @s hearts matches 120..129 run attribute @s generic.max_health modifier add gainheart 12 add_value
+execute if score @s hearts matches 130..139 run attribute @s generic.max_health modifier add gainheart 13 add_value
+execute if score @s hearts matches 140..149 run attribute @s generic.max_health modifier add gainheart 14 add_value
+execute if score @s hearts matches 150..159 run attribute @s generic.max_health modifier add gainheart 15 add_value
+execute if score @s hearts matches 160..169 run attribute @s generic.max_health modifier add gainheart 16 add_value
+execute if score @s hearts matches 170..179 run attribute @s generic.max_health modifier add gainheart 17 add_value
+execute if score @s hearts matches 180..189 run attribute @s generic.max_health modifier add gainheart 18 add_value
+execute if score @s hearts matches 190..199 run attribute @s generic.max_health modifier add gainheart 19 add_value
+execute if score @s hearts matches 200.. run attribute @s generic.max_health modifier add gainheart 20 add_value
